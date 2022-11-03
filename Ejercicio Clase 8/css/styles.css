@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Oxygen', sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    background: #C4C4C4;
+    border: outset;
+    margin-bottom: 70px;
+}
+header{
+    display: flex;
+    justify-content: center;
+    background: #E6E6E6;
+    padding: 10px 0;
+
+}
+img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 146.37px;
+    left: 670px;
+    top: 20.91px; 
+    border-radius: 10px;  
+} 
+main{
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 100px 0;
+}
+h1{
+    display: flex;
+    margin-top: 0;
+    margin-bottom: 0;
+    justify-content: center;
+    letter-spacing: 5px;
+    background: #C4C4C4;
+    color: #005677;
+}
+h2{
+    padding-left: 12px;
+    letter-spacing: 5px;
+    background: #C4C4C4;
+    color: #005677;
+}
+li{
+   margin: 3px;
+}
+a{
+    text-decoration: none;
+    color: #005677;
+
+}
+i{
+    display: flex;
+    padding: 0 0 0 20px;
+    width: 18px;
+    height: 18px;
+    align-items: center;
+    color: white;
+} 
+.dPer{
+    margin-top: 20px;
+    font-style: italic;
+    font-weight: bold;
+}
+.informacion{
+        display: flex;
+        flex-direction: row;
+}
+.fecha{
+    width: 100px;
+    margin-top: 0;
+    text-align: center;
+    font-weight: bold;
+}
+.anno{
+    margin-top: 1px;
+}
+.texto{
+    display: block;
+    width: 500px;
+
+}
+.info{
+    display: block;
+    margin: 0;
+}
+.about{
+    padding: 0 10px;
+}
+footer{
+    padding: 11px;
+    background: #005677;
+    color: white;
+}
+.foot{
+    width: 30%;
+    margin: 0 35% 0 35%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-weight: bold;
+    align-items: center;
+}
+
+.pie{
+    margin: 0;
+}
